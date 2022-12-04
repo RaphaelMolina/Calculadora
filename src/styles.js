@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     height: 100vh;
-    background-color: #CACACA;
+    background-color: #000000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,6 +12,8 @@ export const Container = styled.div`
 export const Content = styled.div`
     background-color: #FFFFFF;
     width: 50%;
+    border-radius: 10px;
+    box-shadow: 0rem 0rem 2rem 2rem #FFFFFF;
 `;
 
 export const Row = styled.div`
@@ -20,10 +22,3 @@ export const Row = styled.div`
     justify-content: space-between;
     align-items: center;
 `;
-
-// export const Column = styled.div`
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     align-items: center;
-// `;
